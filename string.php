@@ -17,6 +17,6 @@ function countvowel($str){
 foreach($strings as $str){
     $revstring=strrev($str);
     $Vowelcount=countvowel($str);
-    echo "Orginal String $str , Vowel Count: $Vowelcount , Reversed String: $revstring ";
+    echo "Orginal String $str , Vowel Count: $Vowelcount , Reversed String: $revstring \n";
 
 }
